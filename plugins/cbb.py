@@ -11,7 +11,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Mᴀsᴛᴇʀ : <a href='https://t.me/Oxyver_Owner'>꧁𒆜🅻🆄🅲🅺🆈𒆜꧂</a>\n○ Lᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n○ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/Oxyver_Owner'>Contact Here</a>\n○ Cʜᴀɴɴᴇʟ : @B4U_movies_in_hindi\n○ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ : @Enox_Movie_Request_Group</b>",
+            text = f"<b>○ Mᴀsᴛᴇʀ : <a href='https://t.me/Oxyver_Owner'>꧁𒆜🅻🆄🅲🅺🆈𒆜꧂</a>\n○ Lᴀɴɢᴜᴀɢᴇ : <code>Python3</code>\n○ Lɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ : <a href='https://t.me/Oxyver_Owner'>Contact Here</a>\n○ Cʜᴀɴɴᴇʟ : @adult_18_plus_movies\n○ </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
